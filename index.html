@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+<head>
+	
+	<!-- Meta Data -->
+        <meta charset="utf-8">
+         
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="A Template by Elias Neves"/>
+        <meta name="keywords" content="HTML5, Bootstrap 3, CSS3, javascript, PHP, onepage, responsive, mobile, developer, network"/>
+        <meta name="author" content="Elias Neves"/>  	
+    
+    
+	           <title>YourDev - Seu desenvolvedor!</title>
+
+	<!-- Stlylesheet -->
+	
+	<link rel="stylesheet" type="text/css" href="media/styles/normalize.css">
+	<link rel="stylesheet" type="tet/css" href="media/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="media/styles/bootstrap.css" />    
+    <link rel="stylesheet" type="tet/css" href="media/styles/timeline.css">
+    <link rel="stylesheet" type="tet/css" href="media/styles/animate.css">
+    <link rel="stylesheet" type="tet/css" href="media/styles/contato.css">
+    
+    <!-- Stlylesheet FireFox and IE -->
+    
+    <style type="text/css">
+    @import url("media/styles/normalize.css");
+	@import url("media/styles/style.css");
+    @import url("media/styles/timeline.css");
+    @import url("media/styles/bootstrap.css");
+    @import url("media/styles/animate.css");
+    @import url("media/styles/contato.css");
+    </style>	
+
+    
+    <!-- JavaScript -->
+    
+    <script src="media/js/jquery-1.11.0.min.js"></script>
+    <script src="media/js/scripts.js"></script>
+    <script src="media/js/wow.min.js"></script>
+    
+    
+    <!-- Esconder menu -->
+    
+    <script>
+
+        $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > 350) {
+                $(".menu_mluv_retratil").addClass('esconder');
+                
+            } else if ($(window).scrollTop() < 350) {
+                $(".menu_mluv_retratil").removeClass('esconder');
+                
+            }
+        });
+        
+    </script>
+    
+
+    <!-- Rodapé retratil -->
+    
+    <script>
+// menu ao rolar
+$(window).bind('scroll', function () {
+      if ($(window).scrollTop() > 350) {
+        $(".rodape_mluv_retratil").addClass('mostrar');
+      } else if ($(window).scrollTop() < 350) {
+        $(".rodape_mluv_retratil").removeClass('mostrar');
+      }
+});
+</script>
+    
+    <script>
+    <!-- WOW Efeito FadeInUP -->
+        
+        $(function (){
+           new WOW().init(); 
+            
+            
+        });
+    </script>
+    
+</head>
+<body>
+	
+        <nav>
+            
+            <div class="menu_mluv_retratil">
+                
+                 <a href="index.html" class="logo"><p >YouDev</p></a>
+	           <nav>
+                  
+		          <a href="index.html">Home</a>
+		          <a href="#somos">Sobre</a>
+		          <a href="#servicos">Serviços</a>
+                  <a href="#contato"><p class="btn btn-primary">Contato</p></a>
+                   
+	           </nav>
+	
+            </div>
+         </nav>
+    
+                    <figure>
+                        <div class="header-bg" >
+                            <div class="intro-lead-in">Tem uma ideia? Um projeto? Está precisando de serviços de Infraestrutura e administração de redes?</div>
+                            <div class="intro-heading">A YourDev é oque você precisa!</div>
+                            <a href="#contato" class="btn btn-danger intro-heading">Entre em contato conosco</a>
+                        </div>
+                    </figure>
+    
+    			 
+                    <div class="container wow fadeInUp"> 
+                        
+                        <div class="principal">
+                        <div class="section-about" id="somos">
+                            <h2><small>Nós somos a</small> </br>YourDev Inc.</br>
+                                <small class="lead">Desenvolvemos seu projeto com excelência e prestamos Serviços de Infraestrutura e Administração de Redes!</small>
+                            </h2>
+        
+                        </div>
+    
+                    <div class="quem-somos wow fadeInUp" >     
+                        <h3 class="lead">QUEM SOMOS</h3>
+                            <p class="title-box">A YourDev é uma empresa de tecnologia da informação, que atua na área de desenvolvimento de software, serviços de Infraestrutura e implantação de soluções prontas. Nossa principal missão é levar com exelência soluções de tecnologia para seu negócio. Contamos com uma equipe de profissionais qualificados para atender suas necessidades e impulsionar seu negócio.</p>
+                    </div> 
+        
+                    <div class="oque-fazemos wow fadeInUp" > 
+                        <h3 class="lead" >O QUE FAZEMOS</h3>
+                            <p class="title-box"> A YourDev oferece diversos serviços na área de <b>desenvolvimento WEB</b>, <b>aplicativos Mobiles, tanto iOS quanto Android e Desktop</b>. Oferecemos serviços de <b>implementação e manutenção de Redes de Computadores </b> para sua empresa de pequeno ou médio porte ou residencial e implantação de soluções prontas com profissionais capacitados.</p>
+        
+                    </div>
+                    
+                    
+                        </div>
+
+                    <div class="container-timeline wow fadeInUp" data-wow-delay="0.5s" id="jobs">
+                        <ul class="timeline" id="servicos">
+                            <li>
+                                <div class="timeline-badge"><img src="media/img/webdev.png" alt="webdev" /> </div>
+                                    <div class="timeline-panel wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="timeline-heading wow fadeInUp" data-wow-delay="0.5s">
+                                            <h4 class="timeline-title">DESENVOLVIMENTO DE WEBSITES </br> Tenha um site profissional agora</h4>
+                                        </div>
+                                            <div class="timeline-body wow fadeInUp" data-wow-delay="0.5s">
+                                                <p>Sua empresa não está na internet? Não perca mais tempo! Desenvolvemos sites específicos para sua empresa, seguindo todos os padrões recomendados de acessibilidade (mobile), SEO e experiência do usuário (UX).</p>
+                                            </div>
+                                    </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge warning"><img src="media/img/sistemadev.png" alt="sistemadev" /> </div>
+                                    <div class="timeline-panel wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="timeline-heading wow fadeInUp" data-wow-delay="0.5s">
+                                            <h4 class="timeline-title">DESENVOLVIMENTO DE SISTEMAS </br> Solução sob medida para sua empresa</h4>
+                                        </div>
+                                            <div class="timeline-body wow fadeInUp" data-wow-delay="0.5s">
+                                                <p>Temos uma equipe de programadores qualificados pronta para qualquer desafio. Desenvolvemos sistemas para lojas virtuais, imobiliárias, concessionárias automotivas, classificados, portais de notícias e muito mais!</p>
+                                            </div>
+                                    </div>
+                            </li>
+                            <li>
+                                <div class="timeline-badge danger"><img src="media/img/web-1.png" alt="devmobile" /> </div>
+                                    <div class="timeline-panel wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="timeline-heading wow fadeInUp"data-wow-delay="0.5s">
+                                            <h4 class="timeline-title wow fadeInUp">APLICATIVOS MOBILE </br> Aplicativos para iOS ou Android</h4>
+                                        </div>
+                                            <div class="timeline-body wow fadeInUp" data-wow-delay="0.5s">
+                                                <p>Quer aumentar a interação com seu cliente? Tenha um aplicativo mobile para sua empresa! Nós temos a solução para o desenvolvimento de aplicativos para Android e iOS. Não perca mais tempo e alavanque seus resultados.</p>
+                                            </div>
+                                    </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge info"> <img src="media/img/network.png" alt="ImplementacaoSistemas" /></div>
+                                    <div class="timeline-panel wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="timeline-heading wow fadeInUp" data-wow-delay="0.5s">
+                                            <h4 class="timeline-title wow fadeInUp" data-wow-delay="0.5s">Serviços e redes</br>Gerenciamos o TI da sua empresa</h4>
+                                        </div>
+                                            <div class="timeline-body wow fadeInUp">
+                                                <p>Implementamos e oferecemos manutenção de Redes de Computadores de pequeno e médio porte: </br>
+                                                    <ul>
+                                                    <li>Redes com Qualidade de Serviço (QoS) e Roteamento.</br></li>
+                                                    <li>Monitoramento, cópias de segurança (backup) e estratégia/planos de atualização da infraestrutura de hardware e software.</br></li>
+                                                    <li>Instalação e configuração de servidores Windows Server e Linux</br></li>
+                                                    <li>Instalação e configuração de desktops Windows e Linux</li>
+                                                    </ul>
+                                                </p>
+                                                    <hr>
+                                                    
+                                                     <input class="btn btn-primary" type="button" value="Mais Serviços" target="_parent" onClick="window.open('servicos.html')">
+                                                    
+                                            </div>
+
+                                    </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                            <div class="formulario-contato" id="contato">
+                                <form method="post" action="envia.php">
+                                    <fieldset>
+                                        <legend>Seus dados</legend>
+                                            <label class="com-icone" for="nome">Nome completo</label>
+                                                <input id="nome" type="text" name="nome" required placeholder="Seu nome" pattern="[A-Za-z ']{4,}" title="O nome precisa ter pelo menos 4 caracteres">
+                                        
+                                            <label class="com-icone" for="email">E-mail</label>
+                                                <input id="email" type="email" name="email" required placeholder="seu@email.com">
+                                            
+                                            <label for="telefone">Telefone</label>
+                                                <input id="telefone" type="text" name="telefone" required placeholder="Telefone">
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Assunto</legend>
+                                            <label>
+                                                <input type="radio" name="assunto" value="Desenvolvimento">
+                                                    Desenvolvimento
+                                            </label>
+                                            
+                                            <label>
+                                                <input type="radio" name="assunto" value="Infraestrutura">
+                                                    Infraestrutura
+                                            </label>
+                                            
+                                            <label>
+                                                <input type="radio" name="assunto" value="Serviços">
+                                                    Serviços
+                                            </label>
+                                        
+                                            <label>
+                                                <input type="radio" name="assunto" value="Outro">
+                                                    Outro
+                                                <input type="text" name="outro-assunto">
+                                            </label>
+                                    </fieldset>
+                                    
+                                            <label for="mensagem">Mensagem</label>
+                                                <textarea id="mensagem" name="mensagem" cols="60" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
+                                        
+                                            <button type="submit" class="btn btn-primary">
+                                                <span class="glyphicon glyphicon-envelope"></span>    Enviar mensagem
+                                            </button>
+                                    
+                                            <button type="reset" class="btn btn-primary">
+                                                Limpar
+                                            </button>
+                                    </form>
+
+                                </div>
+
+                                
+                    <div class="rodape text-center">
+
+                            <footer>Copyright &copy; YourDev 2016
+                                <div class="social-all">
+                                    <ul class="list-inline">
+                                        <li><div class="social-face"> <input type="image" src="media/img/facebook.png" target="_parent" onClick="window.open('http://facebook.com.br')"> </div></li>
+                                    
+                                        <li><div class="social-Twitter"> <input type="image" src="media/img/twitter.png" target="_parent" onClick="window.open('http://facebook.com.br')"></div></li>
+                                    
+                                    <li><div class="social-linkedin"><input type="image" src="media/img/linkedin.png" target="_parent" onClick="window.open('http://facebook.com.br')"></div></li>
+                                    </ul>
+                                </div>    
+                            </footer>
+                    </div>
+                
+                    </div>
+
+                        
+
+
+
+</body>
+</html>

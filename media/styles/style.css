@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #F0F0F0;
+	font-weight: 400;    
+}
+
+.body-serv{
+    
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.logo{
+    position: absolute;
+    font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    padding: 0.5em;
+    font-style: oblique;
+    float: left;
+    color: #000;
+}
+
+.logo:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.menu_mluv_retratil nav .logo:hover{
+    color: #000;
+}
+/* ==== menu retrátil madlyluv.com ==== */
+.menu_mluv_retratil {
+    width: 100%;
+    height: 65px;
+    display: block;
+    background-image: linear-gradient(to bottom, #C0B0B0, #F0F0F0);
+    position: fixed; 
+    top: 0; 
+    z-index: 100;
+    -webkit-transition:All 0.5s ease;
+    -moz-transition:All 0.5s ease;
+    -o-transition:All 0.5s ease;
+}
+.menu_mluv_retratil.esconder{
+    top: -65px;
+    position: fixed;
+}
+.menu_mluv_retratil nav {
+    margin: 0 20px;
+    padding: 0;
+    list-style: none;
+    float: right;
+    
+}
+.menu_mluv_retratil nav a {
+    line-height: 65px;
+    color: #111;
+    text-transform: uppercase;
+    padding: 0 10px;
+    text-decoration: none;
+    
+}
+.menu_mluv_retratil nav a:hover {
+    color: #000055;
+    
+}
+.menu_mluv_retratil a.mostra-esconde-menu{
+    width: 98px;
+    height: 25px; 
+    display: block;
+    line-height: 25px; 
+    background: rgba(0, 0, 0, 0.75);
+    position: absolute; top: 65px;
+    right: 20px; 
+    font-size: 9px; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: 500; 
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+    text-align: center;
+    color: #fff; 
+    z-index: 100;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.35);
+    text-decoration: none;
+    -webkit-transition:All 0.5s ease; 
+    -moz-transition:All 0.5s ease;
+    -o-transition:All 0.5s ease;
+}
+.menu_mluv_retratil a.mostra-esconde-menu.acao-menu {
+    margin-top: -65px;
+}
+
+.header-bg{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    text-align:center;
+    color:#fff;
+    background-attachment:scroll;
+    background-image:url(../img/header-bg.jpg);
+    background-position:center center;
+    background-repeat:none;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    -o-background-size:cover
+}
+.intro-lead-in{
+    
+    margin-bottom:25px;
+    font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:22px;
+    font-style:italic;
+    line-height:22px
+    
+}
+.intro-lead-in{
+    padding-top: 25%;
+    margin-bottom:25px;
+    font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:40px;
+    font-style:italic;
+    line-height:40px
+}
+.intro-heading{
+    margin-bottom:25px;
+    text-transform:uppercase;
+    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:3em;
+    font-weight:700;
+    line-height:50px
+}
+.lead {
+    font-family: "Comic Sans", 'Comic Sans MS', cursive;
+	font-size: 0.80em;
+	font-weight: 300;
+    color: black;
+    text-align: center;
+}
+.title-box{
+
+    font-family: Jura;
+	font-size: 0.7em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+    color: #000;
+    text-align: center;
+}
+.titlelarge{
+    
+    font-family: "Comic Sans", 'Comic Sans MS', cursive;
+    color: black;
+    text-align: center;
+    font-size: 1.8em;
+    font-style: oblique;
+}
+.titlesmall{
+    
+    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.container{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    
+}
+
+@media only screen and (min-width: 1400px) {
+    .container {
+        left: 20%;
+    }
+}
+
+.principal {
+	width: 100%;
+    height: 50%;
+	text-align: center;
+	color: #ecf0f1;
+	font-size: 1.8em;
+    position: relative;
+    left: 10%;
+    
+    
+    
+}
+
+.section-about {
+    text-align: center;
+    font-size: 24px;
+	color: #121212;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    
+    
+}
+
+.quem-somos{
+    
+    width: 45%;
+    height: 20%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: absolute;
+    
+    
+    
+}
+
+.oque-fazemos{
+    
+    width: 45%;
+    height: 20%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: absolute;
+    left: 50%; 
+    
+    
+    
+}
+
+.container-timeline{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-top: 2px solid gray;
+    padding-top: 5%;
+    left: 10%;
+}
+
+.rodape{
+    
+    position: relative;
+    width: 100%;
+    clear: both;
+    top: 55%;
+    border-top: 2px solid gray;
+    padding: 1em;
+    left: 10%;
+}
+
+.social-all{
+    
+    float: right;
+}
+
+
+
+
+
